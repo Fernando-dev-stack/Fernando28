@@ -1,7 +1,14 @@
 body{
-    background-color: gray;
+    background-color: aqua;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(livros.jpg);
+    background-size: cover;
+    max-width: 900;
+    margin: auto;
+    
+
 }
+
 
 
 
@@ -15,13 +22,13 @@ body{
     text-transform: uppercase;
 }
 .post_title{
-    font-size: 16;
+    font-size: 20;
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
 }
 .post {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 15;
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
@@ -31,5 +38,26 @@ body{
     margin-bottom: 15px;
     margin: 0;
     text-transform: capitalize;
+    font-style: italic;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 20;
+    
 
+}
+.itens {
+    list-style-type: square;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: small;
+    text-transform: uppercase;
+    margin-right: 1500px;
+    
+}
+.equipamentos{
+    font-weight: bolder;
+    color: red;
+    font-size: 25px;
 }
